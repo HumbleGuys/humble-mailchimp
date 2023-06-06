@@ -1,0 +1,28 @@
+{
+    "name": "humble-guys/humble-mailchimp",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "HumbleMailchimp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kim Larsson",
+            "email": "kim@humbleguys.se"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^9.27",
+        "illuminate/http": "^9.27"
+    },
+    "require-dev": {
+        "laravel/pint": "^0.2.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
